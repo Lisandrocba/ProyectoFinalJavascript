@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/estilos.css">
+    <title>Proyecto Final</title>
+</head>
+<body class="body">
+    <div class="contenedorUsuarios">
+        <p class="tituloLogin">Cliente del mes: </p>
+        <div class="cartaUsuario">
+           
+        </div>
+    </div>
+    <form class="login" id="forma" onsubmit="return false">
+        <h2 class="colorBlanco">Inicio de Sesión</h2>
+        <label for="usuario" class="colorNaranja">Nombre de Usuario</label>
+        <input type="text" id="usuario" class="inpLogin">
+        <label for="contraseña" class="colorNaranja">Contraseña</label>
+        <input type="password" class="inpLogin" id="contraseña">
+        <button class="btnLogin" id="btnEntrar">ENTRAR</button>
+        <button class="btnLogin" id="btnRegistrar">REGISTRAR</button>
+        <h3 id="mensaje" class="mensaje"></h3>
+    </form>
+
+
+    <header class="contenedorHeader" id="web">
+        <div>
+            <img class="imgLogo" src="multimedia/2626372 copia.png" alt="">
+        </div>
+        <div class="contenedorBotones">
+            <a href="paginas/presupuesto.html" class="contenedorBoton1">
+                Calcula Tu Presupuesto
+            </a>
+            <a href="paginas/reservas.html" class="contenedorBoton3">
+                Guardar mi lugar
+            </a>
+            <a href="paginas/tienda.html" class="contenedorBoton2">
+                Tienda
+            </a>
+        </div>
+    </header>
+
+    <script src="js/login.js"></script>
+</body>
+</html>

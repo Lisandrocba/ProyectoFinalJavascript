@@ -1,0 +1,144 @@
+//----------------- header -----------------------------
+.contenedorHeaderImagen img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+}
+
+.contenedorHeaderTitulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #ff9600;
+    height: 200px;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.453);
+}
+//---------------------------- boton home ------------------------------
+
+.h{
+    background-color: black;
+    color: #ff9600;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 2.5rem;
+    position: fixed;
+    top: 0;
+    left: 30px;
+}
+
+//----------------------------- section texto --------------------------
+
+.contenedorTexto{
+    -webkit-box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+    box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+    border-radius: 30px 30px 30px 0;
+    padding: 0 5% 2% 5%;
+    margin: 3% 5%;
+    border: 2px solid black;
+}
+
+.titulo{
+    color: #ff9600;
+    font-size: 1.8rem;
+}
+
+.subtitulo{
+    font-size: 1.3rem;
+    padding-left: 2%;
+}
+
+.texto{
+    padding-left: 5%;
+}
+
+// ---------------------------- formularios ------------------------------
+
+.contenedorFormulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1% 10%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 30px 30px 30px 0;
+    -webkit-box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+    box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+}
+
+.contenedorFormularioHecho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1% 10%;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 30px 30px 30px 0;
+    -webkit-box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+    box-shadow: 2px 7px 25px -2px rgba(0,0,0,1);
+}
+
+.input{
+    border: 1px solid #ff9600;
+    border-radius: 5px;
+    height: 25px;
+    padding: 1% 1%;
+    transition: 0.5s;
+    outline: 0px;
+    width: 300px;
+}
+
+.input:focus{
+    -webkit-box-shadow: 2px 7px 25px -2px rgba(255,150,0,0.71);
+-moz-box-shadow: 2px 7px 25px -2px rgba(255,150,0,0.71);
+box-shadow: 2px 7px 25px -2px rgba(255,150,0,0.71);
+    border: 1px solid black;
+}
+
+.contFormulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorFila{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0;
+}
+
+.contenedorFila label{
+    margin: 4% 0;
+}
+
+.conteSaludo{
+    margin-top: 3%;
+    color: #ff9600;
+}
+
+.btnCalcular{
+    padding: 5% 10%;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #ff9600;
+    color: #ff9600;
+    margin: 5%;
+    transition: 0.3s;
+}
+
+.btnCalcular:hover{
+    background-color: #ff9600;
+    border: 1px solid white;
+    color: white;
+}
+
+.contenedorSection{
+    display: flex;
+    flex-direction: row;
+}

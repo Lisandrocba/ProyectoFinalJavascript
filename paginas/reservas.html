@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/estilos.css">
+    <title>presupuesto</title>
+</head>
+<body onload="cargarApp()">
+    <header>
+        <div class="contenedorHeaderImagen">
+            <img src="../multimedia/pexels-victor-freitas-949132.jpg" alt="">
+        </div>
+        <div class="contenedorHeaderTitulo">
+            <h1>Reserva tu Lugar</h1>
+        </div>
+    </header>
+
+    <a href="../index.html"><p class="h">←</p></a>
+
+    <div class="contenedorGrillas">
+        <form class="grillaDia" id="forma" onsubmit="return false">
+            <h2 id="dia1">dia</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" class="inpDias" placeholder="Nombre y Apellido">
+            <label for="telefono">Telefono:</label>
+            <input type="text" class="inpDias" id="telefono" placeholder="Numero Telefono">
+            <label for="nombre">Elija el horario:</label>
+            <select name="horario" class="selecDias" id="horario1">
+                <option value="09:00hs">09:00hs</option>
+                <option value="10:00hs">10:00hs</option>
+                <option value="11:00hs">11:00hs</option>
+                <option value="12:00hs">12:00hs</option>
+                <option value="17:00hs">17:00hs</option>
+                <option value="18:00hs">18:00hs</option>
+                <option value="19:00hs">19:00hs</option>
+                <option value="20:00hs">20:00hs</option>
+            </select>
+            <button class="btnReserva" onclick="reserva()">reservar</button>
+        </form>
+        <form class="grillaDia" id="forma2" onsubmit="return false">
+            <h2 id="dia2">dia</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="inpDias" id="nombre" placeholder="Nombre y Apellido">
+            <label for="telefono">Telefono:</label>
+            <input type="text" class="inpDias" id="telefono" placeholder="Numero Telefono">
+            <label for="nombre">Elija el horario:</label>
+            <select class="selecDias" name="horario" id="horario2">
+                <option value="09:00hs">09:00hs</option>
+                <option value="10:00hs">10:00hs</option>
+                <option value="11:00hs">11:00hs</option>
+                <option value="12:00hs">12:00hs</option>
+                <option value="17:00hs">17:00hs</option>
+                <option value="18:00hs">18:00hs</option>
+                <option value="19:00hs">19:00hs</option>
+                <option value="20:00hs">20:00hs</option>
+            </select>
+            <button class="btnReserva" onclick="reserva2()">reservar</button>
+        </form>
+    </div>
+
+    <div>
+        <h2 class="subtituloReserva">Tus Reservas</h2>
+    </div>
+    <div class="contenedorReservas" id="contenedorReservas">
+      
+    </div>
+
+    <script src="../js/codeReservas.js"></script>
+</body>
+</html>

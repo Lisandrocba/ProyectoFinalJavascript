@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../scss/estilos.css">
+    <title>Tienda</title>
+</head>
+<body>
+    <header>
+        <div class="contenedorHeaderImagen">
+            <img src="../multimedia/pexels-victor-freitas-949132.jpg" alt="">
+        </div>
+        <div class="contenedorHeaderTitulo">
+            <h1>Tienda</h1>
+        </div>
+    </header>
+
+    <a href="../index.html"><p class="h">←</p></a>
+
+    <section class="contenedorTienda">
+        <div class="contenedorTipo">
+            <div class="GaseosaProducto">
+                <img id="imagen" class="imgGaseosa" src="../multimedia/agua.jpg" alt="">
+                <p class="tipo">Agua</p>
+                <p class="descripcion">Villavicencio 500ml</p>
+                <p class="precio">$80</p>
+                <button id="btnAgregar" class="btnAgregar">Agregar al carrito</button>
+            </div>
+            <div class="GaseosaProducto">
+                <img class="imgGaseosa" src="../multimedia/agua.jpg" alt="">
+                <p class="tipo">Agua</p>
+                <p class="descripcion">Villavicencio 1.5L</p>
+                <p class="precio">$120</p>
+                <button class="btnAgregar">Agregar al carrito</button>
+            </div>
+            <div class="GaseosaProducto">
+                <img class="imgGaseosa" src="../multimedia/gatorade.jpg" alt="">
+                <p class="tipo">Gaseosa</p>
+                <p class="descripcion">Gatorade 500ml</p>
+                <p class="precio">$100</p>
+                <button class="btnAgregar">Agregar al carrito</button>
+            </div>
+            <div class="GaseosaProducto">
+                <img class="imgGaseosa" src="../multimedia/gatorade.jpg" alt="">
+                <p class="tipo">Gaseosa</p>
+                <p class="descripcion">Gatorade 1.5l</p>
+                <p class="precio">$180</p>
+                <button class="btnAgregar">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="contenedorTipo">
+            <div class="GaseosaProducto">
+                <img class="imgGaseosa" src="../multimedia/true-made_whey-protein1-a081a9e0177d7d1a6815338344482967-480-0.png" alt="">
+                <p class="tipo">Proteina</p>
+                <p class="descripcion">whey protein 1kg</p>
+                <p class="precio">$640</p>
+                <button class="btnAgregar">Agregar al carrito</button>
+            </div>
+            <div class="GaseosaProducto">
+                <img class="imgGaseosa" src="../multimedia/true-made_whey-protein1-a081a9e0177d7d1a6815338344482967-480-0.png" alt="">
+                <p class="tipo">Proteina</p>
+                <p class="descripcion">whey protein 2kg</p>
+                <p class="precio">$1200</p>
+                <button class="btnAgregar">Agregar al carrito</button>
+            </div>
+        </div>
+        <h2 class="subtitulo">Carrito de Compras</h2>
+        <div class="contenedorComprasCarro">
+        <div class="contenedorTituloTabla">
+            <p>Imagen</p>
+            <p>Tipo</p>
+            <p>Descripcion</p>
+            <p>Cantidad</p>
+            <p>Precio</p>
+        </div>  
+        <div class="contenedorCompras"></div>  
+            <!-- carta de producto en carrito -->
+           
+            
+        </div>
+        <div class="totalCompra">
+            <p class="textTotal"></p>
+            <button class="btnComprar">Comprar</button>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+   
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/codeTienda.js"></script>
+</body>
+</html>

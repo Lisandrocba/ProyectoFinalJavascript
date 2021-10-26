@@ -1,0 +1,653 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 248, 248, 0.275)), to(rgba(245, 245, 245, 0.275))), url(../multimedia/pexels-victor-freitas-949131.jpg);
+  background-image: linear-gradient(rgba(248, 248, 248, 0.275), rgba(245, 245, 245, 0.275)), url(../multimedia/pexels-victor-freitas-949131.jpg);
+  background-size: cover;
+}
+
+.contenedorHeader {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(-80px);
+          transform: translateY(-80px);
+}
+
+.imgLogo {
+  width: 400px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin: 0;
+}
+
+.contenedorBotones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contenedorBoton1 {
+  color: #ff9600;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.734);
+  width: 300px;
+  border-radius: 10px 0 0 50px;
+  padding: 5% 10%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contenedorBoton1:hover {
+  color: white;
+}
+
+.contenedorBoton2 {
+  color: #ff9600;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.734);
+  width: 300px;
+  border-radius: 10px 0 0 50px;
+  border-radius: 0 50px 10px 0;
+  padding: 5% 10%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contenedorBoton2:hover {
+  color: white;
+}
+
+.contenedorBoton3 {
+  color: #ff9600;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.734);
+  width: 300px;
+  padding: 5% 10%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.contenedorBoton3:hover {
+  color: white;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1%;
+  margin-left: 15%;
+  background-color: rgba(0, 0, 0, 0.515);
+  width: 60%;
+  padding: 5%;
+  border-radius: 40px 80px 60px 90px;
+}
+
+.colorBlanco {
+  color: white;
+}
+
+.colorNaranja {
+  color: #ff9600;
+}
+
+.inpLogin {
+  width: 50%;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.inpLogin:focus {
+  border: 2px solid #ff9600;
+}
+
+.btnLogin {
+  background-color: transparent;
+  border: 2px solid #ff9600;
+  color: white;
+  width: 15%;
+  height: 50px;
+  border-radius: 5px 10px 5px 10px;
+  margin-top: 2%;
+}
+
+.btnLogin:hover {
+  background-color: #ff9600;
+}
+
+.mensaje {
+  color: #ff9600;
+}
+
+.contenedorUsuarios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cartaUsuario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imgUsuario {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.tituloLogin {
+  margin: 0 2%;
+  font-size: 1.4rem;
+}
+
+.contenedorHeaderImagen img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+}
+
+.contenedorHeaderTitulo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  color: #ff9600;
+  height: 200px;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.453);
+}
+
+.h {
+  background-color: black;
+  color: #ff9600;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 2.5rem;
+  position: fixed;
+  top: 0;
+  left: 30px;
+}
+
+.contenedorTexto {
+  -webkit-box-shadow: 2px 7px 25px -2px black;
+  box-shadow: 2px 7px 25px -2px black;
+  border-radius: 30px 30px 30px 0;
+  padding: 0 5% 2% 5%;
+  margin: 3% 5%;
+  border: 2px solid black;
+}
+
+.titulo {
+  color: #ff9600;
+  font-size: 1.8rem;
+}
+
+.subtitulo {
+  font-size: 1.3rem;
+  padding-left: 2%;
+}
+
+.texto {
+  padding-left: 5%;
+}
+
+.contenedorFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1% 10%;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 30px 30px 30px 0;
+  -webkit-box-shadow: 2px 7px 25px -2px black;
+  box-shadow: 2px 7px 25px -2px black;
+}
+
+.contenedorFormularioHecho {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1% 10%;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 30px 30px 30px 0;
+  -webkit-box-shadow: 2px 7px 25px -2px black;
+  box-shadow: 2px 7px 25px -2px black;
+}
+
+.input {
+  border: 1px solid #ff9600;
+  border-radius: 5px;
+  height: 25px;
+  padding: 1% 1%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: 0px;
+  width: 300px;
+}
+
+.input:focus {
+  -webkit-box-shadow: 2px 7px 25px -2px rgba(255, 150, 0, 0.71);
+  box-shadow: 2px 7px 25px -2px rgba(255, 150, 0, 0.71);
+  border: 1px solid black;
+}
+
+.contFormulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contenedorFila {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5% 0;
+}
+
+.contenedorFila label {
+  margin: 4% 0;
+}
+
+.conteSaludo {
+  margin-top: 3%;
+  color: #ff9600;
+}
+
+.btnCalcular {
+  padding: 5% 10%;
+  width: 200px;
+  background-color: white;
+  border: 1px solid #ff9600;
+  color: #ff9600;
+  margin: 5%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btnCalcular:hover {
+  background-color: #ff9600;
+  border: 1px solid white;
+  color: white;
+}
+
+.contenedorSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.contenedorGrillas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grillaDia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 35%;
+  background-color: #ff9600;
+  margin: 5%;
+  padding: 0 5% 5% 5%;
+  border-radius: 60px 40px 60px 30px;
+}
+
+.inpDias {
+  width: 80%;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.selecDias {
+  width: 80%;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.subtituloReserva {
+  margin-left: 2%;
+}
+
+.Reservacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+  background-color: #ff9600;
+  margin: 5%;
+  padding: 3%;
+  border-radius: 60px 40px 60px 30px;
+}
+
+.diaSema {
+  font-size: 1.5rem;
+}
+
+.marg {
+  margin-bottom: 10%;
+}
+
+.btnReserva {
+  width: 30%;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.btnReserva:hover {
+  background-color: #f5d6ae;
+}
+
+.contenedorReservas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contenedorTienda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedorTipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.GaseosaProducto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 270px;
+  margin: 2% 2%;
+  background-color: #ff9600;
+  border-radius: 10px;
+  padding: 3%;
+}
+
+.imgGaseosa {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btnAgregar {
+  width: 100px;
+  height: 10vh;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btnAgregar:hover {
+  background-color: #ffc97e;
+  cursor: pointer;
+  border: none;
+}
+
+.cantidad {
+  width: 40px;
+  height: 5vh;
+  border-radius: 5px;
+  border: 2px solid #ffc97e;
+  outline-style: none;
+}
+
+.contenedorCompra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2% 0;
+  width: 800px;
+  border-bottom: 2px solid black;
+}
+
+.contenedorComprasCarro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 3% 7%;
+}
+
+.subtitulo {
+  margin-top: 5%;
+  font-size: 1.8rem;
+}
+
+.cantidadProducto {
+  width: 50px;
+}
+
+.btnComprar {
+  width: 100px;
+  height: 10vh;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btnComprar:hover {
+  background-color: #ffe4bd;
+  cursor: pointer;
+}
+
+.totalCompra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2%;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 3% 7%;
+  width: 600px;
+}
+
+.contenedorTituloTabla {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 830px;
+  border-bottom: 2px solid black;
+}
+
+.eliminarProducto {
+  background-color: #f85c5c;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+}
+
+.eliminarProducto:hover {
+  cursor: pointer;
+  background-color: #f32a2a;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,127 @@
+.contenedorTienda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorTipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.GaseosaProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    margin: 2% 2%;
+    background-color: #ff9600;
+    border-radius: 10px;
+    padding: 3%;
+}
+
+.imgGaseosa{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.btnAgregar{
+    width: 100px;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.btnAgregar:hover{
+    background-color: #ffc97e;
+    cursor: pointer;
+    border: none;
+}
+
+.cantidad{
+    width: 40px;
+    height: 5vh;
+    border-radius: 5px;
+    border: 2px solid #ffc97e;
+    outline-style: none;
+}
+
+.contenedorCompra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0;
+    width: 800px;
+    border-bottom: 2px solid black;
+}
+
+.contenedorComprasCarro{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 3% 7%;
+}
+
+.subtitulo{
+    margin-top: 5%;
+    font-size: 1.8rem;
+}
+
+.cantidadProducto{
+    width: 50px;
+}
+
+.btnComprar{
+    width: 100px;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 0.5s;
+}
+
+.btnComprar:hover{
+    background-color: #ffe4bd;
+    cursor: pointer;
+}
+
+.totalCompra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 3% 7%;
+    width: 600px;
+}
+
+.contenedorTituloTabla{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 830px;
+    border-bottom: 2px solid black;
+}
+
+.eliminarProducto{
+    background-color: rgb(248, 92, 92);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.eliminarProducto:hover{
+    cursor: pointer;
+    background-color: rgb(243, 42, 42);
+}

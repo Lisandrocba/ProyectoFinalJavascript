@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../scss/estilos.css">
+    <title>presupuesto</title>
+</head>
+<body>
+    <header>
+        <div class="contenedorHeaderImagen">
+            <img src="../multimedia/pexels-victor-freitas-949132.jpg" alt="">
+        </div>
+        <div class="contenedorHeaderTitulo">
+            <h1>Calcula tu presupuesto</h1>
+        </div>
+    </header>
+
+    <a href="../index.html"><p class="h">←</p></a>
+
+    <section>
+        <div class="contenedorTexto">
+            <p class="titulo">Calcula tu presupuesto mensual de entrenamiento!</p>
+            <p class="subtitulo">Hasta el mes de Noviembre tenes descuentos sobre tu plan mensual.</p>
+            <p class="texto">* Con tu pago de 3 meses accedes a un 5% de descuento</p>
+            <p class="texto">* Con el pago de 6 meses el descuento es del 15%</p>
+            <p class="texto">* Con el pago de 12 meses tenes un 40% de descuento</p>
+        </div>
+    </section>
+
+    <section class="contenedorSection">
+        <div class="contenedorFormulario">
+            <form action="" id="formularioPresupuesto">
+                <div class="contenedorFila">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input class="input" type="text" id="nombreApellido">
+                </div>
+                <div class="contenedorFila">
+                    <label for="dias">Cantidad de dias Por Semana:</label>
+                    <input class="input" id="cantidadDias" type="number">
+                </div>
+                <div class="contenedorFila">
+                    <label for="meses">Cantidad de meses:</label>
+                    <input class="input" id="cantidadMeses" type="number">
+                </div>
+            </form>
+            <button class="btnCalcular">CALCULAR</button>
+        </div>
+
+        
+        <div class="contenedorFormularioHecho">
+           
+        </div>
+    
+        
+    </section>
+    
+
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/codePresupuesto.js"></script>
+</body>
+</html>
